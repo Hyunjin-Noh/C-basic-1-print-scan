@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main(void)
+{
+    double a, b;
+    scanf("%lf %lf", &a, &b);
+    
+    printf("Height : %.1f\n", a);
+    printf("Weight : %.1f\n", b);
+    return 0;
+}
