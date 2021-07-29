@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main(void)
+{
+    double height, weight, height2, weight2;
+    scanf("%lf %lf", &height, &weight);
+    height2 = height / 2.54;
+    weight2 = weight * 2.205;
+    printf("cm -> in : %.2f\n", height2);
+    printf("kg -> lb : %.2f\n", weight2);
+    return 0;
+}
