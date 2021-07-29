@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main(void)
+{
+    int Kor, Eng, Math, sum, average;
+    printf("Input Korean score : ");
+    scanf("%d", &Kor);
+    printf("Input English score : ");
+    scanf("%d", &Eng);
+    printf("Input Math score : ");
+    scanf("%d", &Math);
+    
+    sum = Kor+Eng+Math;
+    average = (Kor+Eng+Math)/3;
+    printf("Total score : %d, Average score : %d", sum, average);
+    return 0;
+}
