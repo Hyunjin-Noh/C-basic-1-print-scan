@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main(void)
+{
+    printf("%6s%6s%6s\n", "stuff", "price", "stock");
+    printf("--------------------\n");
+    printf("%6s%6d%6d\n", "ramen", 1000, 96);
+    printf("%6s%6d%6d\n", "egg", 2500, 326);
+    printf("%6s%6d%6d\n", "coffee", 500, 120);
+    return 0;
+}
